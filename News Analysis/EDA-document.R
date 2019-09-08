@@ -22,7 +22,7 @@ library(scales)
 #library(rJava)
 #devtools::install_github("bnosac/RDRPOSTagger")
 
-row_text <- textreadr::read_dir('Documents/Monash/FIT5147/report 1/Summaries/business/')
+row_text <- textreadr::read_dir('Summaries/business/')
 
 
 # data checking
@@ -43,7 +43,7 @@ ggplot_missing <- function(x){
 }
 
 # data processing
-read_text <- function(folder_direct = 'Documents/Monash/FIT5147/report 1/Summaries/business/' , isfold = TRUE, isdf = FALSE, df = df_docs,
+read_text <- function(folder_direct = 'Summaries/business/' , isfold = TRUE, isdf = FALSE, df = df_docs,
                       ratio.lower = 0.8, topic_name = 'business'){
   options(warn=-1)
   
@@ -156,10 +156,10 @@ merge_words <- function(df1, df2, name1, name2){
 #----------------------------------------#
 # load data
 data.business <- read_text()
-data.policy <- read_text('Documents/Monash/FIT5147/report 1/Summaries/politics/', topic_name = 'policy')
-data.sport <- read_text('Documents/Monash/FIT5147/report 1/Summaries/sport/', topic_name = 'sport')
-data.tech <- read_text('Documents/Monash/FIT5147/report 1/Summaries/tech/', topic_name = 'tech')
-data.enter <- read_text('Documents/Monash/FIT5147/report 1/Summaries/entertainment/', topic_name = 'entertainment')
+data.policy <- read_text('Summaries/politics/', topic_name = 'policy')
+data.sport <- read_text('Summaries/sport/', topic_name = 'sport')
+data.tech <- read_text('Summaries/tech/', topic_name = 'tech')
+data.enter <- read_text('Summaries/entertainment/', topic_name = 'entertainment')
 
 # get words
 business_words <- sum_words(data.business$wordcount)
