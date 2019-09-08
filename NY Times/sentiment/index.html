@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang = "en">
+<meta charset="utf-8">
+<title>NY Times News Sentiment</title>
+<style>
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 1000%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+html{
+    font: normal 100%/1.5 Georgia,serif;
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+    background: #fff;
+}
+header{
+    background-color: #e2e2e2;
+    padding: 1em 0;
+}
+.nav li {
+  display: inline-block;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a{
+    color: #fff;
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    background-color: #666;
+    border-radius: none;
+}
+
+.nav a:hover{
+    background-color: #000;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+<body>
+    <header>
+            <h1>New York Times Analysis & Visualization</h1>
+            <nav>
+                    <ul class="nav">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../Author attitude/author sentiment.html">Author sentiment</a></li>
+                        <li><a href="../word_cloud/index.html">Word Cloud</a></li>
+                        <li><a href="../sentiment/index.html">News Sentiment</a></li>
+                        <li><a href="../Crime/index.html">Crime Map</a></li>
+                    </ul>
+            </nav>
+    </header>
+    
+    <h2>Introduction</h2>
+    <p>This part is to visualize news sentiment which shows positive, negative or badness</p>
+    <li>Green: Positive</li>
+    <li>Red: Negative</li>
+    <li>Grey: Badness</li>
+
+    <div class="alert">
+            <span class="closebtn">&times;</span>  
+            <strong>Notice! Please Patient!  Loading this visualization needs 20 seconds.</strong>
+          </div>
+
+<script type="module">
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+
+import {Runtime, Inspector} from "./runtime.js";
+import define from "./main.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+
+</script>
+
+<canvas id="canvas"></canvas>
+
+<script>
+
+class Circle {
+  // random x, y
+  // create circle
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+    this.r = Math.random() * 10;
+    this._mx = Math.random();
+    this._my = Math.random();
+
+  }
+
+  //canvas create line and circle 
+  //avoid too many lines, if too far, skip
+  drawCircle(ctx) {
+    ctx.beginPath();
+    //arc() create line 
+    ctx.arc(this.x, this.y, this.r, 0, 360)
+    ctx.closePath();
+    ctx.fillStyle = 'rgba(204, 204, 204, 0.3)';
+    ctx.fill();
+  }
+
+  drawLine(ctx, _circle) {
+    let dx = this.x - _circle.x;
+    let dy = this.y - _circle.y;
+    let d = Math.sqrt(dx * dx + dy * dy)
+    if (d < 150) {
+      ctx.beginPath();
+      //move to this.x,this. create distance _circle.x,_circle.y;
+      ctx.moveTo(this.x, this.y); //start point
+      ctx.lineTo(_circle.x, _circle.y); //end point
+      ctx.closePath();
+      ctx.strokeStyle = 'rgba(204, 204, 204, 0.3)';
+      ctx.stroke();
+    }
+  }
+
+  // circle moving all the times
+  move(w, h) {
+    this._mx = (this.x < w && this.x > 0) ? this._mx : (-this._mx);
+    this._my = (this.y < h && this.y > 0) ? this._my : (-this._my);
+    this.x += this._mx / 2;
+    this.y += this._my / 2;
+  }
+}
+
+//moveover
+class currentCirle extends Circle {
+  constructor(x, y) {
+    super(x, y)
+  }
+
+  drawCircle(ctx) {
+    ctx.beginPath();
+
+    //this.r = (this.r < 14 && this.r > 1) ? this.r + (Math.random() * 2 - 1) : 2;
+    this.r = 8;
+    ctx.arc(this.x, this.y, this.r, 0, 360);
+    ctx.closePath();
+    //ctx.fillStyle = 'rgba(0,0,0,' + (parseInt(Math.random() * 100) / 100) + ')'
+    ctx.fillStyle = 'rgba(255, 77, 54, 0.6)'
+    ctx.fill();
+
+  }
+}
+
+//use requestAnimationFrame
+window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+
+let canvas = document.getElementById('canvas');
+let ctx = canvas.getContext('2d');
+let w = canvas.width = canvas.offsetWidth;
+let h = canvas.height = canvas.offsetHeight;
+let circles = [];
+let current_circle = new currentCirle(0, 0)
+
+let draw = function() {
+  ctx.clearRect(0, 0, w, h);
+  for (let i = 0; i < circles.length; i++) {
+    circles[i].move(w, h);
+    circles[i].drawCircle(ctx);
+    for (j = i + 1; j < circles.length; j++) {
+      circles[i].drawLine(ctx, circles[j])
+    }
+  }
+  if (current_circle.x) {
+    current_circle.drawCircle(ctx);
+    for (var k = 1; k < circles.length; k++) {
+      current_circle.drawLine(ctx, circles[k])
+    }
+  }
+  requestAnimationFrame(draw)
+}
+
+let init = function(num) {
+  for (var i = 0; i < num; i++) {
+    circles.push(new Circle(Math.random() * w, Math.random() * h));
+  }
+  draw();
+}
+
+window.addEventListener('load', init(60));
+
+window.onmousemove = function(e) {
+  e = e || window.event;
+  var scrollX = document.documentElement.scrollLeft || document.body.scrollLeft;
+  var scrollY = document.documentElement.scrollTop || document.body.scrollTop;
+  current_circle.x = e.pageX || e.clientX +scrollX ;
+  current_circle.y = e.pageY || e.clientY +scrollY ;
+}
+
+window.onmouseout = function() {
+  current_circle.x = null;
+  current_circle.y = null;
+}
+</script>
+
+</body>
+</html>

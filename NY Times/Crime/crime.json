@@ -1,0 +1,3265 @@
+{
+  "name": "Crimes",
+  "children": [
+    {
+      "count": 133,
+      "name": "Manhattan",
+      "children": [
+        {
+          "count": 7,
+          "name": 2000,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 104
+            },
+            {
+              "name": "RAPE",
+              "value": 344
+            },
+            {
+              "name": "ROBBERY",
+              "value": 7129
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 5191
+            },
+            {
+              "name": "BURGLARY",
+              "value": 7610
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 24452
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 4111
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2001,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 104
+            },
+            {
+              "name": "RAPE",
+              "value": 317
+            },
+            {
+              "name": "ROBBERY",
+              "value": 6129
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4680
+            },
+            {
+              "name": "BURGLARY",
+              "value": 6613
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 22176
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3399
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2002,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 85
+            },
+            {
+              "name": "RAPE",
+              "value": 373
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5965
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4239
+            },
+            {
+              "name": "BURGLARY",
+              "value": 6288
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 20445
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3309
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2003,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 95
+            },
+            {
+              "name": "RAPE",
+              "value": 418
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5617
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3934
+            },
+            {
+              "name": "BURGLARY",
+              "value": 6144
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 20872
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2938
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2004,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 90
+            },
+            {
+              "name": "RAPE",
+              "value": 438
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5288
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3771
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5639
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 21492
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2516
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2005,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 91
+            },
+            {
+              "name": "RAPE",
+              "value": 408
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5531
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3450
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5050
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 20216
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2049
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2006,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 111
+            },
+            {
+              "name": "RAPE",
+              "value": 289
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5131
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3386
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4940
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 19200
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1683
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2007,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 69
+            },
+            {
+              "name": "RAPE",
+              "value": 264
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4684
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3401
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4086
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 18393
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1495
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2008,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 62
+            },
+            {
+              "name": "RAPE",
+              "value": 262
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4522
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3156
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4113
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 17806
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1335
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2009,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 59
+            },
+            {
+              "name": "RAPE",
+              "value": 238
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3773
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3113
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3798
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 16050
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1080
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2010,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 70
+            },
+            {
+              "name": "RAPE",
+              "value": 340
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3763
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3087
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3147
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 15458
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 982
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2011,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 71
+            },
+            {
+              "name": "RAPE",
+              "value": 341
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3637
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3144
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3213
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 14826
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 872
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2012,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 63
+            },
+            {
+              "name": "RAPE",
+              "value": 338
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3576
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3344
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3214
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 16065
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 797
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2013,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 39
+            },
+            {
+              "name": "RAPE",
+              "value": 284
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3337
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3335
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2931
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 16857
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 744
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2014,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 37
+            },
+            {
+              "name": "RAPE",
+              "value": 278
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2903
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3334
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2820
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 15822
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 761
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2015,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 41
+            },
+            {
+              "name": "RAPE",
+              "value": 308
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3146
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3524
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2764
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 16227
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 813
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2016,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 41
+            },
+            {
+              "name": "RAPE",
+              "value": 292
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2919
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3716
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2420
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 16491
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 733
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2017,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 46
+            },
+            {
+              "name": "RAPE",
+              "value": 298
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2744
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3640
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2411
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 16184
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 626
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2018,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 31
+            },
+            {
+              "name": "RAPE",
+              "value": 404
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2710
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3716
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2601
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 16607
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 711
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "count": 133,
+      "name": "Bronx",
+      "children": [
+        {
+          "count": 7,
+          "name": 2000,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 190
+            },
+            {
+              "name": "RAPE",
+              "value": 507
+            },
+            {
+              "name": "ROBBERY",
+              "value": 6123
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 6196
+            },
+            {
+              "name": "BURGLARY",
+              "value": 7440
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 4584
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 6517
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2001,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 191
+            },
+            {
+              "name": "RAPE",
+              "value": 518
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5289
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 5565
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5822
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 4334
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 5457
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2002,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 171
+            },
+            {
+              "name": "RAPE",
+              "value": 570
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5215
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 5143
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5193
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 4798
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 5210
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2003,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 136
+            },
+            {
+              "name": "RAPE",
+              "value": 531
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5170
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4643
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5136
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 4781
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 4770
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2004,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 126
+            },
+            {
+              "name": "RAPE",
+              "value": 402
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5076
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4541
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4872
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5052
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 4516
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2005,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 129
+            },
+            {
+              "name": "RAPE",
+              "value": 374
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5057
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4366
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4218
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5373
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 4117
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2006,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 155
+            },
+            {
+              "name": "RAPE",
+              "value": 336
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4933
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4407
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3941
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5314
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3399
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2007,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 130
+            },
+            {
+              "name": "RAPE",
+              "value": 318
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4609
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4408
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3889
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5387
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3002
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2008,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 132
+            },
+            {
+              "name": "RAPE",
+              "value": 308
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4845
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4105
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3557
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5282
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2943
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2009,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 113
+            },
+            {
+              "name": "RAPE",
+              "value": 269
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4129
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4333
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3637
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 4847
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2413
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2010,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 127
+            },
+            {
+              "name": "RAPE",
+              "value": 288
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4610
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4439
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3342
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 4682
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2162
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2011,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 148
+            },
+            {
+              "name": "RAPE",
+              "value": 274
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4578
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4456
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3533
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 4898
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2088
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2012,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 114
+            },
+            {
+              "name": "RAPE",
+              "value": 288
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4730
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4836
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3163
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5545
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1636
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2013,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 83
+            },
+            {
+              "name": "RAPE",
+              "value": 262
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4443
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 5467
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2949
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6048
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1447
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2014,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 95
+            },
+            {
+              "name": "RAPE",
+              "value": 309
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3990
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 5190
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2858
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5954
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1474
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2015,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 91
+            },
+            {
+              "name": "RAPE",
+              "value": 351
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4382
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 5378
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2681
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6344
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1585
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2016,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 98
+            },
+            {
+              "name": "RAPE",
+              "value": 339
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4292
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 5596
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2598
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6541
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1372
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2017,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 72
+            },
+            {
+              "name": "RAPE",
+              "value": 331
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3550
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 5489
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2254
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6825
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1348
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2018,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 91
+            },
+            {
+              "name": "RAPE",
+              "value": 386
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3210
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 5640
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2272
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6357
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1301
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "count": 133,
+      "name": "Brooklyn",
+      "children": [
+        {
+          "count": 7,
+          "name": 2000,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 241
+            },
+            {
+              "name": "RAPE",
+              "value": 375
+            },
+            {
+              "name": "ROBBERY",
+              "value": 6446
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 5019
+            },
+            {
+              "name": "BURGLARY",
+              "value": 7720
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6388
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 7199
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2001,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 254
+            },
+            {
+              "name": "RAPE",
+              "value": 396
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5412
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4226
+            },
+            {
+              "name": "BURGLARY",
+              "value": 6587
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5668
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 5620
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2002,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 221
+            },
+            {
+              "name": "RAPE",
+              "value": 363
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5174
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3767
+            },
+            {
+              "name": "BURGLARY",
+              "value": 6258
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6122
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 5089
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2003,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 235
+            },
+            {
+              "name": "RAPE",
+              "value": 308
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4873
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3578
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5651
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6605
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 4587
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2004,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 231
+            },
+            {
+              "name": "RAPE",
+              "value": 280
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4477
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3181
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5194
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6825
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 4014
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2005,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 211
+            },
+            {
+              "name": "RAPE",
+              "value": 294
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4508
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3304
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4663
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 7082
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3607
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2006,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 225
+            },
+            {
+              "name": "RAPE",
+              "value": 210
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4261
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3105
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4288
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 7100
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3003
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2007,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 213
+            },
+            {
+              "name": "RAPE",
+              "value": 179
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3689
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3145
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3956
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6491
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2509
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2008,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 213
+            },
+            {
+              "name": "RAPE",
+              "value": 177
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4126
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 2877
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3841
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6443
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2246
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2009,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 201
+            },
+            {
+              "name": "RAPE",
+              "value": 180
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3310
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 2917
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3377
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5716
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2012
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2010,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 222
+            },
+            {
+              "name": "RAPE",
+              "value": 208
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3167
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 2878
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3421
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5308
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1891
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2011,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 198
+            },
+            {
+              "name": "RAPE",
+              "value": 226
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3357
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3505
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3308
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5404
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1648
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2012,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 149
+            },
+            {
+              "name": "RAPE",
+              "value": 208
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3516
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3350
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3477
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6406
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1459
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2013,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 147
+            },
+            {
+              "name": "RAPE",
+              "value": 246
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3355
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3427
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3204
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6600
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1357
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2014,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 122
+            },
+            {
+              "name": "RAPE",
+              "value": 216
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2999
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3525
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3006
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6466
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1252
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2015,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 146
+            },
+            {
+              "name": "RAPE",
+              "value": 229
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2887
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3362
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2700
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6069
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1289
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2016,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 128
+            },
+            {
+              "name": "RAPE",
+              "value": 227
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2359
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3387
+            },
+            {
+              "name": "BURGLARY",
+              "value": 1924
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5694
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1103
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2017,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 111
+            },
+            {
+              "name": "RAPE",
+              "value": 232
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2207
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3217
+            },
+            {
+              "name": "BURGLARY",
+              "value": 1840
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5579
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1015
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2018,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 98
+            },
+            {
+              "name": "RAPE",
+              "value": 302
+            },
+            {
+              "name": "ROBBERY",
+              "value": 1901
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3158
+            },
+            {
+              "name": "BURGLARY",
+              "value": 1770
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 5567
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 868
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "count": 133,
+      "name": "Queens",
+      "children": [
+        {
+          "count": 7,
+          "name": 2000,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 113
+            },
+            {
+              "name": "RAPE",
+              "value": 406
+            },
+            {
+              "name": "ROBBERY",
+              "value": 6723
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4548
+            },
+            {
+              "name": "BURGLARY",
+              "value": 9563
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 9231
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 12356
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2001,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 87
+            },
+            {
+              "name": "RAPE",
+              "value": 386
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5891
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 4175
+            },
+            {
+              "name": "BURGLARY",
+              "value": 8415
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 9111
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 10519
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2002,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 98
+            },
+            {
+              "name": "RAPE",
+              "value": 385
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5694
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3777
+            },
+            {
+              "name": "BURGLARY",
+              "value": 8416
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 9031
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 9001
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2003,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 122
+            },
+            {
+              "name": "RAPE",
+              "value": 410
+            },
+            {
+              "name": "ROBBERY",
+              "value": 5179
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3366
+            },
+            {
+              "name": "BURGLARY",
+              "value": 7381
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 8988
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 7363
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2004,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 115
+            },
+            {
+              "name": "RAPE",
+              "value": 416
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4819
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3279
+            },
+            {
+              "name": "BURGLARY",
+              "value": 6535
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 9621
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 6530
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2005,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 93
+            },
+            {
+              "name": "RAPE",
+              "value": 476
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4957
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3049
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5881
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 9438
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 5555
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2006,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 85
+            },
+            {
+              "name": "RAPE",
+              "value": 413
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4960
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3038
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5878
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 9035
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 4910
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2007,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 72
+            },
+            {
+              "name": "RAPE",
+              "value": 345
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4432
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3145
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5824
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 8605
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3916
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2008,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 95
+            },
+            {
+              "name": "RAPE",
+              "value": 316
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4632
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3023
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5227
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 8527
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3846
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2009,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 82
+            },
+            {
+              "name": "RAPE",
+              "value": 301
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3987
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3150
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4838
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 7624
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3313
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2010,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 100
+            },
+            {
+              "name": "RAPE",
+              "value": 273
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4064
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3235
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4853
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 6938
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3499
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2011,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 82
+            },
+            {
+              "name": "RAPE",
+              "value": 311
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4044
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3729
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4953
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 7427
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 3114
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2012,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 83
+            },
+            {
+              "name": "RAPE",
+              "value": 333
+            },
+            {
+              "name": "ROBBERY",
+              "value": 4145
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3903
+            },
+            {
+              "name": "BURGLARY",
+              "value": 5274
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 8085
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2690
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2013,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 59
+            },
+            {
+              "name": "RAPE",
+              "value": 310
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3989
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3981
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4848
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 8496
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2401
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2014,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 64
+            },
+            {
+              "name": "RAPE",
+              "value": 289
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3264
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3977
+            },
+            {
+              "name": "BURGLARY",
+              "value": 4371
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 8359
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2590
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2015,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 60
+            },
+            {
+              "name": "RAPE",
+              "value": 295
+            },
+            {
+              "name": "ROBBERY",
+              "value": 3262
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3966
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3572
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 8248
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 2259
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2016,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 47
+            },
+            {
+              "name": "RAPE",
+              "value": 313
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2981
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3923
+            },
+            {
+              "name": "BURGLARY",
+              "value": 3270
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 8535
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1919
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2017,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 50
+            },
+            {
+              "name": "RAPE",
+              "value": 307
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2843
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3820
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2914
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 7860
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1568
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2018,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 65
+            },
+            {
+              "name": "RAPE",
+              "value": 387
+            },
+            {
+              "name": "ROBBERY",
+              "value": 2522
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 3853
+            },
+            {
+              "name": "BURGLARY",
+              "value": 2495
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 8067
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1546
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "count": 133,
+      "name": "Staten Island",
+      "children": [
+        {
+          "count": 7,
+          "name": 2000,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 25
+            },
+            {
+              "name": "RAPE",
+              "value": 63
+            },
+            {
+              "name": "ROBBERY",
+              "value": 472
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 659
+            },
+            {
+              "name": "BURGLARY",
+              "value": 1074
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 973
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1409
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2001,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 13
+            },
+            {
+              "name": "RAPE",
+              "value": 38
+            },
+            {
+              "name": "ROBBERY",
+              "value": 372
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 643
+            },
+            {
+              "name": "BURGLARY",
+              "value": 951
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 926
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 1053
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2002,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 12
+            },
+            {
+              "name": "RAPE",
+              "value": 53
+            },
+            {
+              "name": "ROBBERY",
+              "value": 375
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 578
+            },
+            {
+              "name": "BURGLARY",
+              "value": 1027
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 923
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 849
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2003,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 9
+            },
+            {
+              "name": "RAPE",
+              "value": 51
+            },
+            {
+              "name": "ROBBERY",
+              "value": 382
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 436
+            },
+            {
+              "name": "BURGLARY",
+              "value": 799
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1118
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 662
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2004,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 8
+            },
+            {
+              "name": "RAPE",
+              "value": 44
+            },
+            {
+              "name": "ROBBERY",
+              "value": 407
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 572
+            },
+            {
+              "name": "BURGLARY",
+              "value": 814
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1162
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 598
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2005,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 15
+            },
+            {
+              "name": "RAPE",
+              "value": 60
+            },
+            {
+              "name": "ROBBERY",
+              "value": 462
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 527
+            },
+            {
+              "name": "BURGLARY",
+              "value": 824
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1224
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 554
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2006,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 20
+            },
+            {
+              "name": "RAPE",
+              "value": 54
+            },
+            {
+              "name": "ROBBERY",
+              "value": 455
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 417
+            },
+            {
+              "name": "BURGLARY",
+              "value": 693
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1135
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 626
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2007,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 12
+            },
+            {
+              "name": "RAPE",
+              "value": 47
+            },
+            {
+              "name": "ROBBERY",
+              "value": 458
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 461
+            },
+            {
+              "name": "BURGLARY",
+              "value": 806
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1150
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 527
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2008,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 21
+            },
+            {
+              "name": "RAPE",
+              "value": 66
+            },
+            {
+              "name": "ROBBERY",
+              "value": 471
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 427
+            },
+            {
+              "name": "BURGLARY",
+              "value": 801
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1218
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 460
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2009,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 16
+            },
+            {
+              "name": "RAPE",
+              "value": 57
+            },
+            {
+              "name": "ROBBERY",
+              "value": 399
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 462
+            },
+            {
+              "name": "BURGLARY",
+              "value": 641
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1000
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 423
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2010,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 17
+            },
+            {
+              "name": "RAPE",
+              "value": 63
+            },
+            {
+              "name": "ROBBERY",
+              "value": 420
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 484
+            },
+            {
+              "name": "BURGLARY",
+              "value": 620
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 973
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 349
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2011,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 16
+            },
+            {
+              "name": "RAPE",
+              "value": 54
+            },
+            {
+              "name": "ROBBERY",
+              "value": 396
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 558
+            },
+            {
+              "name": "BURGLARY",
+              "value": 730
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 964
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 332
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2012,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 10
+            },
+            {
+              "name": "RAPE",
+              "value": 61
+            },
+            {
+              "name": "ROBBERY",
+              "value": 444
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 684
+            },
+            {
+              "name": "BURGLARY",
+              "value": 743
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1131
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 304
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2013,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 7
+            },
+            {
+              "name": "RAPE",
+              "value": 57
+            },
+            {
+              "name": "ROBBERY",
+              "value": 522
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 661
+            },
+            {
+              "name": "BURGLARY",
+              "value": 686
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1249
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 224
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2014,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 15
+            },
+            {
+              "name": "RAPE",
+              "value": 45
+            },
+            {
+              "name": "ROBBERY",
+              "value": 419
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 646
+            },
+            {
+              "name": "BURGLARY",
+              "value": 615
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1282
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 220
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2015,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 14
+            },
+            {
+              "name": "RAPE",
+              "value": 40
+            },
+            {
+              "name": "ROBBERY",
+              "value": 456
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 682
+            },
+            {
+              "name": "BURGLARY",
+              "value": 567
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1259
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 217
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2016,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 21
+            },
+            {
+              "name": "RAPE",
+              "value": 49
+            },
+            {
+              "name": "ROBBERY",
+              "value": 421
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 656
+            },
+            {
+              "name": "BURGLARY",
+              "value": 503
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1208
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 246
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2017,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 13
+            },
+            {
+              "name": "RAPE",
+              "value": 52
+            },
+            {
+              "name": "ROBBERY",
+              "value": 325
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 647
+            },
+            {
+              "name": "BURGLARY",
+              "value": 415
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1098
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 233
+            }
+          ]
+        },
+        {
+          "count": 7,
+          "name": 2018,
+          "children": [
+            {
+              "name": "MURDERS",
+              "value": 10
+            },
+            {
+              "name": "RAPE",
+              "value": 74
+            },
+            {
+              "name": "ROBBERY",
+              "value": 324
+            },
+            {
+              "name": "FELONY ASSAULT",
+              "value": 592
+            },
+            {
+              "name": "BURGLARY",
+              "value": 360
+            },
+            {
+              "name": "GRAND LARCENY ",
+              "value": 1155
+            },
+            {
+              "name": "GRAND LARCENY-MV",
+              "value": 184
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

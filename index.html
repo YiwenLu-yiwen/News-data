@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="uft-8">
+        <title> FIT5147 Assignment 2 Web Visualization </title>
+        <link href="index.css" rel="stylesheet">
+
+        <style>
+            html {
+                height: 100%
+            }
+            
+            body {
+                margin: 0;
+                height: 100%;
+                background: #fff;
+            }
+
+            canvas {
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: -1;
+            }
+        </style>
+    </head>
+    <body>
+    <header>
+        <h1>NLP In News Visualization</h1>
+        <nav>
+                <ul class="nav">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./BBC news/index.html">BBC news</a></li>
+                  <li><a href="./NY Times/index.html">NY Times</a></li>
+                </ul>
+        </nav>
+    </header>
+        <h2>Author Information</h2>
+        <p>
+            <li>Student Id: 29063043</li>
+            <li>Student name: Yiwen Lu</li>
+            <li>Unit name: 29063043</li>
+            <li>Date: 09/06/2019</li>
+        </p>
+    
+        <h2> Introduction </h2>
+        <p>
+            This project is about analysisng and visualizating BBC news and NY Times. Since author thinks 
+            processing part is most important to learn NLP. It introduces NLP only in Processing part in how
+            to get features in these news data.
+            This project may benefit People who are interested in NLP.
+        </p>
+
+        <h2> What Involves In This Project? </h2>
+        <h3> BBC News </h3>
+        <p>
+            <li> Word Frequency</li>
+            <li> SVD Word Embedding</li>
+            <li> SNE Word Similarity</li>
+            <li> Empath Topics</li>
+        </p>
+        <h3>NY Times</h3>
+        <p>
+            <li> Author sentiment Analysis</li>
+            <li> Word Cloud </li>
+            <li> Crime Mapping </li>
+            <li> News Sentiment Analysis </li>
+        </p>
+        
+        <canvas id="canvas"></canvas>
+    <script>
+    class Circle {
+    // random x, y
+    // create circle
+    constructor(x, y) {
+      this.x = x;
+      this.y = y;
+      this.r = Math.random() * 10;
+      this._mx = Math.random();
+      this._my = Math.random();
+
+    }
+
+    //canvas create line and circle 
+    //avoid too many lines, if too far, skip
+    drawCircle(ctx) {
+      ctx.beginPath();
+      //arc() create line 
+      ctx.arc(this.x, this.y, this.r, 0, 360)
+      ctx.closePath();
+      ctx.fillStyle = 'rgba(204, 204, 204, 0.3)';
+      ctx.fill();
+    }
+
+    drawLine(ctx, _circle) {
+      let dx = this.x - _circle.x;
+      let dy = this.y - _circle.y;
+      let d = Math.sqrt(dx * dx + dy * dy)
+      if (d < 150) {
+        ctx.beginPath();
+        //move to this.x,this. create distance _circle.x,_circle.y;
+        ctx.moveTo(this.x, this.y); //start point
+        ctx.lineTo(_circle.x, _circle.y); //end point
+        ctx.closePath();
+        ctx.strokeStyle = 'rgba(204, 204, 204, 0.3)';
+        ctx.stroke();
+      }
+    }
+
+    // circle moving all the times
+    move(w, h) {
+      this._mx = (this.x < w && this.x > 0) ? this._mx : (-this._mx);
+      this._my = (this.y < h && this.y > 0) ? this._my : (-this._my);
+      this.x += this._mx / 2;
+      this.y += this._my / 2;
+    }
+  }
+
+  //moveover
+  class currentCirle extends Circle {
+    constructor(x, y) {
+      super(x, y)
+    }
+
+    drawCircle(ctx) {
+      ctx.beginPath();
+  
+      //this.r = (this.r < 14 && this.r > 1) ? this.r + (Math.random() * 2 - 1) : 2;
+      this.r = 8;
+      ctx.arc(this.x, this.y, this.r, 0, 360);
+      ctx.closePath();
+      //ctx.fillStyle = 'rgba(0,0,0,' + (parseInt(Math.random() * 100) / 100) + ')'
+      ctx.fillStyle = 'rgba(255, 77, 54, 0.6)'
+      ctx.fill();
+
+    }
+  }
+
+  //use requestAnimationFrame
+  window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+
+  let canvas = document.getElementById('canvas');
+  let ctx = canvas.getContext('2d');
+  let w = canvas.width = canvas.offsetWidth;
+  let h = canvas.height = canvas.offsetHeight;
+  let circles = [];
+  let current_circle = new currentCirle(0, 0)
+
+  let draw = function() {
+    ctx.clearRect(0, 0, w, h);
+    for (let i = 0; i < circles.length; i++) {
+      circles[i].move(w, h);
+      circles[i].drawCircle(ctx);
+      for (j = i + 1; j < circles.length; j++) {
+        circles[i].drawLine(ctx, circles[j])
+      }
+    }
+    if (current_circle.x) {
+      current_circle.drawCircle(ctx);
+      for (var k = 1; k < circles.length; k++) {
+        current_circle.drawLine(ctx, circles[k])
+      }
+    }
+    requestAnimationFrame(draw)
+  }
+
+  let init = function(num) {
+    for (var i = 0; i < num; i++) {
+      circles.push(new Circle(Math.random() * w, Math.random() * h));
+    }
+    draw();
+  }
+
+  window.addEventListener('load', init(60));
+
+  window.onmousemove = function(e) {
+    e = e || window.event;
+    var scrollX = document.documentElement.scrollLeft || document.body.scrollLeft;
+    var scrollY = document.documentElement.scrollTop || document.body.scrollTop;
+    current_circle.x = e.pageX || e.clientX +scrollX ;
+    current_circle.y = e.pageY || e.clientY +scrollY ;
+  }
+
+  window.onmouseout = function() {
+    current_circle.x = null;
+    current_circle.y = null;
+  }
+        </script>
+    </body>
+</html>

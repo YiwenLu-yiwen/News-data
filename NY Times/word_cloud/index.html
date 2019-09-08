@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang = "en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled</title>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+<title>Word Cloud</title>
+<style>
+html{
+    font: normal 100%/1.5 Georgia,serif;
+}
+body {
+    margin: 0;
+}
+header{
+    background-color: #e2e2e2;
+    padding: 1em 0;
+}
+.nav li {
+  display: inline-block;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a{
+    color: #fff;
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    background-color: #666;
+    border-radius: none;
+}
+
+.nav a:hover{
+    background-color: #000;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+<body>
+    <header>
+            <h1>New York Times Analysis & Visualization</h1>
+            <nav>
+                    <ul class="nav">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../Author attitude/author sentiment.html">Author Sentiment</a></li>
+                        <li><a href="../word_cloud/index.html">Word Cloud</a></li>
+                        <li><a href="../sentiment/index.html">News Sentiment</a></li>
+                        <li><a href="../Crime/index.html">Crime Map</a></li>
+                    </ul>
+            </nav>
+        </header>
+    
+    <h2>Data Introduction</h2>
+    <p>This plot shows word Frequency in all news document</p>
+    <li>larger size represent more frequency in all news document in Word Cloud</li>
+    <li>Moving Cursor in Word Cloud and it will show number of words </li>
+
+    <div class="alert">
+      <span class="closebtn">&times;</span>  
+      <strong>Notice! Please Patient!  Loading this visualization needs 20 seconds.</strong>
+    </div>
+
+<script type="module">
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+import {Runtime, Inspector} from "./runtime.js";
+import define from "./main.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+
+</script>
+</body>
+</html>
